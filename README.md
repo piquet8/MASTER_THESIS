@@ -1,4 +1,4 @@
-# master_thesis-piquet
+# MASTER_THESIS
 ## trace_genarator.py
 Algorithm used to filter the data extracted from the simulations log file, and convert them into Boolean string traces. Each Boolean string consists of 3 parameters: 
 - the battery of the robot (3 boolean values) 
