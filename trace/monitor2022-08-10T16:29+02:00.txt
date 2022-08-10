@@ -1,0 +1,1356 @@
+Detected ABI qt5_12-x86_64, using ABI qt5_12-x86_64.
+[[01;34mINFO[00m] |[01;32myarp.os.Port[00m|[31m/monitor[00m| Port /monitor active at tcp://10.240.4.20:10251/
+GammaRay server listening on: tcp://127.0.0.1:11732
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /ArmServiceIsFetchedClient/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToIsAtClient/charging_station/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /BatteryReaderBatteryNotChargingClient/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /BatteryReaderBatteryLevelClient/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToGoToClient/charging_station/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToGoToClient/kitchen/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /ArmServiceFetchClient/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToIsAtClient/user/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToGoToClient/user/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /BatteryLevel/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /BatteryNotCharging/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /IsAtChargingStation/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToChargingStation/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /IsFetched/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /IsAtUser/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToUser/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /Fetch/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /IsAtDestination/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToDestination/BT_rpc/client/monitor to /monitor using tcp
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /tick/monitor to /monitor using tcp
+[[01;32mDEBUG[00m] Tick intercepted:
+  From      : /tick/monitor
+  To        : /monitor
+  Protocol  : Tick
+  Command   : 
+  Arguments : 1
+  Reply     : 
+[[01;34mINFO[00m] |[01;32myarp.os.Port[00m|[36m/log/IITICUBLAP232/monitor/222960[00m| Port /log/IITICUBLAP232/monitor/222960 active at tcp://10.240.4.20:10413/
+[[01;34mINFO[00m] |[01;32myarp.os.impl.PortCoreOutputUnit[00m|[36m/log/IITICUBLAP232/monitor/222960[00m| Sending output from /log/IITICUBLAP232/monitor/222960 to /yarplogger using fast_tcp
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryLevelClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryLevelClient
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 55.5820000000000433715
+[[01;34mINFO[00m] |[01;34myarp.os.impl.PortCoreInputUnit[00m|[31m/monitor[00m| Receiving input from /GoToIsAtClient/kitchen/monitor to /monitor using tcp
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryNotChargingClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : charging_status
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryNotChargingClient
+  Protocol  : BatteryReader
+  Command   : charging_status
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /ArmServiceIsFetchedClient
+  To        : /ArmComponent
+  Protocol  : ArmService
+  Command   : hasGrasped
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /ArmComponent
+  To        : /ArmServiceIsFetchedClient
+  Protocol  : ArmService
+  Command   : hasGrasped
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 3
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToIsAtClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getCurrentPose
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToIsAtClient/user
+  Protocol  : GoTo
+  Command   : getCurrentPose
+  Arguments : 
+  Reply     : 2.199095;-13.739805
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToIsAtClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getPoseOf
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToIsAtClient/user
+  Protocol  : GoTo
+  Command   : getPoseOf
+  Arguments : user
+  Reply     : 3.200000;3.000000
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 3
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : goTo
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : goTo
+  Arguments : 
+  Reply     : user
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Tick intercepted:
+  From      : /tick/monitor
+  To        : /monitor
+  Protocol  : Tick
+  Command   : 
+  Arguments : 2
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryLevelClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryLevelClient
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 55.5320000000001599005
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryNotChargingClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : charging_status
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryNotChargingClient
+  Protocol  : BatteryReader
+  Command   : charging_status
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /ArmServiceIsFetchedClient
+  To        : /ArmComponent
+  Protocol  : ArmService
+  Command   : hasGrasped
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /ArmComponent
+  To        : /ArmServiceIsFetchedClient
+  Protocol  : ArmService
+  Command   : hasGrasped
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 3
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToIsAtClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getCurrentPose
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToIsAtClient/user
+  Protocol  : GoTo
+  Command   : getCurrentPose
+  Arguments : 
+  Reply     : 2.189429;-13.736685
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToIsAtClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getPoseOf
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToIsAtClient/user
+  Protocol  : GoTo
+  Command   : getPoseOf
+  Arguments : user
+  Reply     : 3.200000;3.000000
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 3
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Tick intercepted:
+  From      : /tick/monitor
+  To        : /monitor
+  Protocol  : Tick
+  Command   : 
+  Arguments : 3
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryLevelClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryLevelClient
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 55.4320000000003929586
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryNotChargingClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : charging_status
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryNotChargingClient
+  Protocol  : BatteryReader
+  Command   : charging_status
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /ArmServiceIsFetchedClient
+  To        : /ArmComponent
+  Protocol  : ArmService
+  Command   : hasGrasped
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /ArmComponent
+  To        : /ArmServiceIsFetchedClient
+  Protocol  : ArmService
+  Command   : hasGrasped
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 3
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToIsAtClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getCurrentPose
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToIsAtClient/user
+  Protocol  : GoTo
+  Command   : getCurrentPose
+  Arguments : 
+  Reply     : 2.141491;-13.729340
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToIsAtClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getPoseOf
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToIsAtClient/user
+  Protocol  : GoTo
+  Command   : getPoseOf
+  Arguments : user
+  Reply     : 3.200000;3.000000
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 3
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Tick intercepted:
+  From      : /tick/monitor
+  To        : /monitor
+  Protocol  : Tick
+  Command   : 
+  Arguments : 4
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryLevelClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryLevelClient
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 55.383000000000507157
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryNotChargingClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : charging_status
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryNotChargingClient
+  Protocol  : BatteryReader
+  Command   : charging_status
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryNotCharging/BT_rpc/server
+  To        : /BatteryNotCharging/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /ArmServiceIsFetchedClient
+  To        : /ArmComponent
+  Protocol  : ArmService
+  Command   : hasGrasped
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /ArmComponent
+  To        : /ArmServiceIsFetchedClient
+  Protocol  : ArmService
+  Command   : hasGrasped
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsFetched/BT_rpc/client
+  To        : /IsFetched/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsFetched/BT_rpc/server
+  To        : /IsFetched/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 3
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToIsAtClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getCurrentPose
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToIsAtClient/user
+  Protocol  : GoTo
+  Command   : getCurrentPose
+  Arguments : 
+  Reply     : 1.923025;-13.547847
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToIsAtClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getPoseOf
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToIsAtClient/user
+  Protocol  : GoTo
+  Command   : getPoseOf
+  Arguments : user
+  Reply     : 3.200000;3.000000
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /IsAtUser/BT_rpc/client
+  To        : /IsAtUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /IsAtUser/BT_rpc/server
+  To        : /IsAtUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 3
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToUser/BT_rpc/client
+  To        : /GoToUser/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToUser/BT_rpc/server
+  To        : /GoToUser/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /GoToGoToClient/user
+  To        : /GoToComponent
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /GoToComponent
+  To        : /GoToGoToClient/user
+  Protocol  : GoTo
+  Command   : getStatus
+  Arguments : user
+  Reply     : 1
+[[01;32mDEBUG[00m] Tick intercepted:
+  From      : /tick/monitor
+  To        : /monitor
+  Protocol  : Tick
+  Command   : 
+  Arguments : 5
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 0
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : send_start
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryReaderBatteryLevelClient
+  To        : /BatteryComponent
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryComponent
+  To        : /BatteryReaderBatteryLevelClient
+  Protocol  : BatteryReader
+  Command   : level
+  Arguments : 
+  Reply     : 55.283000000000740215
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryLevel/BT_rpc/client
+  To        : /BatteryLevel/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
+[[01;32mDEBUG[00m] Reply intercepted:
+  From      : /BatteryLevel/BT_rpc/server
+  To        : /BatteryLevel/BT_rpc/client
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 2
+[[01;32mDEBUG[00m] Command intercepted:
+  From      : /BatteryNotCharging/BT_rpc/client
+  To        : /BatteryNotCharging/BT_rpc/server
+  Protocol  : Skill_request
+  Command   : request_ack
+  Arguments : 
+  Reply     : 
