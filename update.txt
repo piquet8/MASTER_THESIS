@@ -1,0 +1,37 @@
+COSA HO FATTO:
+
+- esperimenti con simulazione in 2D
+- algoritmo per filtraggio dati 
+- nuova simulazione in gazebo provato filtraggio dati con simulazioni di Michele, funziona cambiando parametri mappa
+se cambio la mappa non posso utilizzare lo stesso codice ?
+- configurato alienware per nuove simulazioni
+tempo da gestire con Federico, vedere le simulazioni possono andare insieme?
+- creato repository MASTER_THESIS -> mandare link Michele e Enrico 
+
+COSA FARO':
+
+- inizio stesura tesi
+ricerca di materiale e papers
+cose importanti da scrivere?
+- nuova simulazione
+esperimenti per creazione di nuove tracce
+introduzione oggetti nel percorso -> contattare Stefano
+ha senso cambiare la posizione delle basi per avere tracce diverse? -> chiedere a stefano se è sufficiente cambiare le coordinate in location.ini
+le posizioni delle attuali basi (cucina, stazione ricarica, grasp) sono adattabili all'ambiente che verrà usato da R1?
+- commentare e sistemare codice
+- sistemare la repository -> metto tutte le cartelle delle simulazioni o sufficiente il link alla pagina delle repo?
+- esperimenti sul robot 
+modalità e tempistiche 
+
+GESTIONE UPDATES:	
+
+- ha senso programmare scadenze per le diverse modalità di esperimenti es. entro settembre esperimenti su gazebo, entro ottobre esperimenti sul robot
+- contattare Tacchella per parlare di dove siamo arrivati e dove vogliamo arrivare
+- fissare uno/due appuntamenti di update prima del 21 agosto
+- posso entrare in iit per usare alienware anche quando Enrico e Michele sono via -> dal 21 agosto
+
+DOMANDE PERSONALI:
+come possiamo filtrare i dati runtime
+come facciamo ad utilizzare l'algorimto di enrico in runtime se questo deve avere l'intera traccia a disposizione per trovare la soluzione
+
+
