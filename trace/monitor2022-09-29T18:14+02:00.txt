@@ -1,0 +1,3 @@
+Detected ABI qt5_12-x86_64, using ABI qt5_12-x86_64.
+[[01;34mINFO[00m] |[01;32myarp.os.Port[00m|[31m/monitor[00m| Port /monitor active at tcp://10.240.4.20:10250/
+GammaRay server listening on: tcp://127.0.0.1:11732
