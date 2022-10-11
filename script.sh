@@ -1,47 +1,37 @@
-#!/bin/bash
 
-shopt -s nullglob
-logfiles_s=(*_s.json)
-x_s=${#logfiles_s[@]}
+# use nullglob in case there are no matching files
+shopt -s nullglob dotglob
 
-shopt -s nullglob
-logfiles_f=(*_f.json)
-x_f=${#logfiles_f[@]}
+# create an array with all the filer/dir inside ~/myDir
+arr_s=(*_s.json)
+echo "${#arr_s[@]}"
+echo "${arr_s[@]}"
 
-x_s=$(( $x_s - 1 ))
-echo $x_s
+arr_f=(*_f.json)
+echo "${#arr_f[@]}"
+echo "${arr_f[@]}"
 
-x_f=$(( $x_f - 1 ))
-echo $x_f
+t=$((${#arr_s[@]} $i - 1 ))
+k=$((${#arr_f[@]} $i - 1 ))
+
+echo $t
+echo $k
+echo ${arr_f[@]}
 
 echo '{ "positive_traces": [' >> sample.json;
 
-t=0 
-for i in *_s.json;
-do if [ $t -lt $x_s ]; 
- then 
-	cat "$i" >> sample.json && echo ', ' >> sample.json;
-	t=$(( $t + 1 ))
- else
- 	cat "$i" >> sample.json 
- 	t=$(( $t + 1 ))
-fi
+for ((i=0; i<$t; i++)); do
+    cat "${arr_s[$i]}" >> sample.json && echo ', ' >> sample.json;
 done
+
+cat "${arr_s[$t]}" >> sample.json;
 
 echo '], "negative_traces": [' >> sample.json;
 
-k=0 
-for i in *_f.json;
-do if [ $k -lt $x_f ]; 
- then 
-	cat "$i" >> sample.json && echo ', ' >> sample.json;
-	k=$(( $k + 1 ))
- else
- 	echo $k
- 	cat "$i" >> sample.json 
- 	k=$(( $k + 1 ))
-fi
+for ((i=0; i<$k; i++)); do
+    cat "${arr_f[$i]}" >> sample.json && echo ', ' >> sample.json;
 done
 
-echo '] }' >> sample.json;
+cat "${arr_s[$k]}" >> sample.json;
 
+echo '] }' >> sample.json;
