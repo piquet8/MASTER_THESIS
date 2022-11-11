@@ -18,7 +18,11 @@ For the tour-guide-robot simulation, the parameters are:
 - b0 = -19.2
 - b1 = 16.9
 
-The above problem should have been solved in the [new algorithm](https://github.com/piquet8/MASTER_THESIS/blob/main/prova_nuova_gestione_coordinate_mappa.py) where the extreme x and y positions reached by the robot during the simulation are taken so that a map containing only the part of the map actually used by the robot is plotted
+For the R1 experiments in arena, the parameters are:
+-	a0 = -1
+-	a1 = 3
+-	b0 = -3
+-	b1 = 7.5
 
 ## Simulations
 Simulations used during testing can be found here:
