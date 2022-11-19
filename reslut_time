@@ -1,0 +1,153 @@
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample RAL1.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Solution: F(¬((X_d1dd)∨(X_ddd1)))
+
+real	0m0,006s
+user	0m0,000s
+sys	0m0,005s
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample RAL1.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Searching formulae of size 6
+Searching formulae of size 7
+Searching formulae of size 8
+Searching formulae of size 9
+Solution: (F((X_dd1d)∧(X((Battery_1dd)∨(Battery_d1d)))))U(Y_1ddd)
+
+real	0m19,747s
+user	1m17,223s
+sys	0m1,175s
+
+-------------------------------------------------------------------------------------------
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample RAL_sample_notComp.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Solution: F(¬((X_d1dd)∨(X_ddd1)))
+
+real	0m1,140s
+user	0m1,136s
+sys	0m0,004s
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample RAL_sample_notComp.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Searching formulae of size 6
+
+
+-------------------------------------------------------------------------------------------
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample gazebo.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(X_dd1d))
+
+real	0m0,054s
+user	0m0,001s
+sys	0m0,000s
+
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample gazebo.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Solution: F(G((Battery_1dd)∨(Battery_d1d)))
+
+real	0m0,003s
+user	0m0,002s
+sys	0m0,000s
+
+-------------------------------------------------------------------------------------------
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample Gazebo_notComp.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(X_dd1d))
+
+real	0m0,062s
+user	0m0,007s
+sys	0m0,000s
+
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample Gazebo_notComp.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Solution: F(G((Battery_1dd)∨(Battery_d1d)))
+
+real	0m0,350s
+user	0m0,350s
+sys	0m0,000s
+
+--------------------------------------------------------------------------------------------
+ 
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample R1test.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Solution: F((Y_1ddd)∧(Y_d1dd))
+
+real	0m0,055s
+user	0m0,002s
+sys	0m0,000s
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample R1test.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Searching formulae of size 6
+Solution: F((X_1ddd)∧((X_d1dd)∧(Grasp)))
+
+real	0m0,015s
+user	0m0,018s
+sys	0m0,006s
+ 
+ -----------------------------------------------------------------------------------------
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample R1_notComp.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Solution: F((Y_1ddd)∧(Y_d1dd))
+
+real	0m0,064s
+user	0m0,028s
+sys	0m0,000s
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ time target/release/solver --sample R1_notComp.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Searching formulae of size 6
+Solution: (F((X_1ddd)∧(X_d1dd)))U(Grasp)
+
+real	0m5,313s
+user	0m6,261s
+sys	0m0,004s
+
