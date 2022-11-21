@@ -1,0 +1,54 @@
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-battlow.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(Battery_1dd))
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-kitchen.json --format json
+Searching formulae of size 1
+Solution: X_1ddd
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-kitchen.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Solution: ¬(X_d1dd)
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-kitchen.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(X_dd1d))
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-station.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(Battery_1dd))
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-station.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(Battery_d1d))
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-station.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(Battery_dd1))
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-station.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(X(X_dd1d))
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-kitchen.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(X_dd1d))
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-log.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Solution: F(G(X_dd1d))
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample R1-log.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Solution: F((Y_1ddd)∧(Y_d1dd))
+
