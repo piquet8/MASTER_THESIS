@@ -1,0 +1,21 @@
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample RAL1.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Solution: F(¬((X_d1dd)∨(X_ddd1)))
+
+gianluca@Gianlu-PC:~/Desktop/MASTER_THESIS/learn_pltl$ target/release/solver --sample RAL1.json --format json
+Searching formulae of size 1
+Searching formulae of size 2
+Searching formulae of size 3
+Searching formulae of size 4
+Searching formulae of size 5
+Searching formulae of size 6
+Searching formulae of size 7
+Searching formulae of size 8
+Searching formulae of size 9
+Solution: F((X((Battery_1dd)∨(Battery_d1d)))∧((X_dd1d)∧(Y_1ddd)))
+
+https://we.tl/t-LSdoinnRt4
